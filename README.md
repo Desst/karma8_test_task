@@ -4,6 +4,7 @@
 Storage service with 6 server nodes(disk storage) at startup
 
 'karma_task' binary - starts a REST server at 127.0.0.1:8080 with 2 simple handles:
+
     - POST /api/v1/file?filename=<file_name>
     - GET /api/v1/file?filename=<file_name>
 
